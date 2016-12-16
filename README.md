@@ -1,2 +1,7 @@
 # dockerized-swagger-diff
-Dockerized Swagger::Diff
+
+Dockerized [Swagger::Diff](https://github.com/civisanalytics/swagger-diff).
+
+```bash
+docker run dailyhotel/swagger-diff sdiff http://apiserver.com/api/v1/api-docs http://apiserver.com/api/v2/api-docs
+```
