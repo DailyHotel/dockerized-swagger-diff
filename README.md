@@ -5,5 +5,5 @@
 Dockerized [Swagger::Diff](https://github.com/civisanalytics/swagger-diff).
 
 ```bash
-docker run dailyhotel/swagger-diff sdiff http://apiserver.com/api/v1/api-docs http://apiserver.com/api/v2/api-docs
+docker run dailyhotel/swagger-diff swagger-diff -c http://apiserver.com/api/v1/api-docs http://apiserver.com/api/v2/api-docs
 ```
